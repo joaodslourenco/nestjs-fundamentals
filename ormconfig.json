@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "db",
   "port": 5432,
   "username": "postgres",
   "password": "docker",
-  "database": "postgres",
+  "database": "nestjs-course",
   "entities": ["dist/**/*.entity.js"],
   "migrations": ["dist/migrations/*.js"],
   "cli": {
